@@ -78,21 +78,6 @@ vConsole 本体：
 [CHANGELOG_CN.md](./CHANGELOG_CN.md)
 
 
-
-## CDN
-
-- [v2.5.1](https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/2.5.1/vconsole.min.js)
-
-
-
-## 交流反馈
-
-QQ 群：497430533
-
-![](./example/snapshot/qq_group.png)
-
-
-
 ## License
 
 The MIT License (http://opensource.org/licenses/MIT)

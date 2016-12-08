@@ -19,7 +19,7 @@ module.exports = {
       {
         test: /\.html$/, loader: 'html'
       },
-      { 
+      {
         test: /\.js$/, loader: 'babel'
       },
       {
@@ -31,6 +31,9 @@ module.exports = {
         test: /\.json$/, loader: 'json'
       }
     ]
+  },
+  htmlLoader: {
+    ignoreCustomFragments: [/\{\{.*?}}/]
   },
   plugins: [
     new webpack.BannerPlugin([

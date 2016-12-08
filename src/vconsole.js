@@ -11,6 +11,7 @@ import VConsolePlugin from './lib/plugin.js';
 import VConsoleDefaultTab from './log/default.js';
 import VConsoleSystemTab from './log/system.js';
 import VConsoleNetworkTab from './network/network.js';
+import VConsoleResourcesTab from './resources/resources.js';
 
 // here we go
 const vConsole = new VConsole();
@@ -23,6 +24,9 @@ vConsole.addPlugin(systemTab);
 
 const networkTab = new VConsoleNetworkTab('network', 'Network');
 vConsole.addPlugin(networkTab);
+
+const resourcesTab = new VConsoleResourcesTab('resources', 'Resources');
+vConsole.addPlugin(resourcesTab);
 
 // export
 vConsole.VConsolePlugin = VConsolePlugin;
